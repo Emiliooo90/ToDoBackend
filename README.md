@@ -10,32 +10,39 @@ Este es un ejemplo de README para tu proyecto ToDoBackend, una API pública desa
    cd ToDoBackend
 
 2. **Crear un enotrno virtual (opcional, pero recomendado)**
+   ```bash
    python-m venv venv
    source venv/bin/activate
 
-3. **Instalar dependencias**
+4. **Instalar dependencias**
+   ```bash
    pip install -r requirements.txt
 
-4. **Realizar las migraciones de la base de datos SQLite**
+6. **Realizar las migraciones de la base de datos SQLite**
+   ```bash
    python manage.py migrate
 
-5. **Iniciar el servidor de desarrollo**
+8. **Iniciar el servidor de desarrollo**
+   ```bash
    python manage.py runserver
 
-Una vez que el servidor esté en funcionamiento, puedes acceder a la API en http://127.0.0.1:8000/api/tasks/ (o la URL correspondiente según tu configuración) para empezar a utilizarla.
+Una vez que el servidor esté en funcionamiento, puedes acceder a la API en http://127.0.0.1:8000/api/tareas/ (o la URL correspondiente según tu configuración) para empezar a utilizarla.
+
+## Documentación
+Toda la documentación de la API la puedes encontrar en el siguiente endpoint http://127.0.0.1:8000/swagger/ y http://127.0.0.1:8000/redoc/
 
 ## Uso
-Una vez que el servidor esté en funcionamiento, puedes acceder a la API en http://127.0.0.1:8000/api/tasks/ (o la URL correspondiente según tu configuración). Aquí puedes realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre las tareas.
+Una vez que el servidor esté en funcionamiento, puedes acceder a la API en http://127.0.0.1:8000/api/tareas/ (o la URL correspondiente según tu configuración). Aquí puedes realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre las tareas.
 
 La API cuenta con los siguientes endpoints:
 
-GET /api/tasks/: Obtiene una lista de todas las tareas.
-POST /api/tasks/: Crea una nueva tarea.
-GET /api/tasks/<task_id>/: Obtiene detalles de una tarea específica.
-PUT /api/tasks/<task_id>/: Actualiza una tarea específica.
-DELETE /api/tasks/<task_id>/: Elimina una tarea específica.
+GET /api/tareas/: Obtiene una lista de todas las tareas.
+POST /api/tareas/: Crea una nueva tarea.
+GET /api/tareas/<task_id>/: Obtiene detalles de una tarea específica.
+PUT /api/tareas/<task_id>/: Actualiza una tarea específica.
+DELETE /api/tareas/<task_id>/: Elimina una tarea específica.
 ## Contribuir
 Si deseas contribuir a este proyecto, ¡te damos la bienvenida! Puedes hacerlo abriendo un PR (Pull Request) con tus cambios propuestos.
 
-##Licencia
+## Licencia
 Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo LICENSE.
