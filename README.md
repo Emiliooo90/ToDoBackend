@@ -6,7 +6,7 @@ Este es un ejemplo de README para tu proyecto ToDoBackend, una API pública desa
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/your-username/ToDoBackend.git
+   git clone https://github.com/Emiliooo90/ToDoBackend.git
    cd ToDoBackend
 
 2. **Crear un enotrno virtual (opcional, pero recomendado)**
@@ -29,7 +29,7 @@ Este es un ejemplo de README para tu proyecto ToDoBackend, una API pública desa
 Una vez que el servidor esté en funcionamiento, puedes acceder a la API en http://127.0.0.1:8000/api/tareas/ (o la URL correspondiente según tu configuración) para empezar a utilizarla.
 
 ## Documentación
-Toda la documentación de la API la puedes encontrar en el siguiente endpoint http://127.0.0.1:8000/swagger/ y http://127.0.0.1:8000/redoc/
+Toda la documentación necesaria la puedes encontrar en los siguientes endpoints http://127.0.0.1:8000/api/swagger/ y http://127.0.0.1:8000/api/redoc/
 
 ## Uso
 Una vez que el servidor esté en funcionamiento, puedes acceder a la API en http://127.0.0.1:8000/api/tareas/ (o la URL correspondiente según tu configuración). Aquí puedes realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre las tareas.
@@ -45,4 +45,4 @@ DELETE /api/tareas/<task_id>/: Elimina una tarea específica.
 Si deseas contribuir a este proyecto, ¡te damos la bienvenida! Puedes hacerlo abriendo un PR (Pull Request) con tus cambios propuestos.
 
 ## Licencia
-Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo LICENSE.
+Este proyecto esta bajo la licencia de Emilio Romero.
