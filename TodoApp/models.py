@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 
+#Único modelo creado para manejar las tareas en el frontend
 class Tarea(models.Model):
     titulo = models.CharField(max_length=255, blank=True)
     descripcion = models.TextField(blank=True, null=True)
